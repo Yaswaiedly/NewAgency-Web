@@ -1,145 +1,227 @@
 @import url("./global.css");
 
-header{
-    display: flex; /* Para que o grupo fique ao lado do outro */
-    justify-content: space-between; /* Colocar nas extremidades */
-    align-items: center; /* Centraliza na vertical */
-    padding: 30px; /* Espaçamento interno */
-    border-bottom: 0.7px solid var(--color-gray-3); /* Borda iferior */
+header {
+    display: flex;
+    /* Para que o grupo fique ao lado do outro */
+    justify-content: space-between;
+    /* Colocar nas extremidades */
+    align-items: center;
+    /* Centraliza na vertical */
+    padding: 30px;
+    /* Espaçamento interno */
+    border-bottom: 0.7px solid var(--color-gray-3);
+    /* Borda iferior */
 }
 
-.container-nav-header{
-    display: flex; /* Para que o grupo fique ao lado do outro */
-    align-items: center; /* Centraliza na vertical */
-    gap: 70px; /* Distância entre os elementos */
+.container-nav-header {
+    display: flex;
+    /* Para que o grupo fique ao lado do outro */
+    align-items: center;
+    /* Centraliza na vertical */
+    gap: 70px;
+    /* Distância entre os elementos */
 }
 
-.navigation-header ul{ /* Só vai estilizar as tags <UL> que etiverem dentro de navigation-header */
-    display: flex;  /* Para que o grupo fique ao lado do outro */
-    gap: 40px; /* Distância entre os elementos */
-    list-style: none; /* Remove a bolinha */       
+.navigation-header ul {
+    /* Só vai estilizar as tags <UL> que etiverem dentro de navigation-header */
+    display: flex;
+    /* Para que o grupo fique ao lado do outro */
+    gap: 40px;
+    /* Distância entre os elementos */
+    list-style: none;
+    /* Remove a bolinha */
 }
 
-.navigation-header ul li a{
-    text-decoration: none; /* Decoração do texto */
-    color: var(--color-black); /* cor do texto */
-    font-family: var(--font-family-primary); /* Família da fonte */    
+.navigation-header ul li a {
+    text-decoration: none;
+    /* Decoração do texto */
+    color: var(--color-black);
+    /* cor do texto */
+    font-family: var(--font-family-primary);
+    /* Família da fonte */
 }
 
-.navigation-header ul li .menu-active{
-    color: var(--color-blue); /* Cor do texto */
+.navigation-header ul li .menu-active {
+    color: var(--color-blue);
+    /* Cor do texto */
 }
 
-.btn-header{
-    font-family: var(--font-family-primary); /* Altera a fonte */
-    text-decoration: none; /* Tira a decoração do texto */
-    background-color: var(--color-blue); /* Cor de fundo */
-    color: var(--color-white); /* Cor de texto */
-    border-radius: 10px; /* Arredondamento das bordas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-weight: var(--font-weight-button); /* Espessura da fonte */
+.btn-header {
+    font-family: var(--font-family-primary);
+    /* Altera a fonte */
+    text-decoration: none;
+    /* Tira a decoração do texto */
+    background-color: var(--color-blue);
+    /* Cor de fundo */
+    color: var(--color-white);
+    /* Cor de texto */
+    border-radius: 10px;
+    /* Arredondamento das bordas */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    font-weight: var(--font-weight-button);
+    /* Espessura da fonte */
 }
 
 /* ---------------- MAIN ---------------- */
-main{
-    display: flex; /* Para que o grupo fique ao lado do outro */
-    justify-content: center; /* Centraliza na horizontal */
-    align-items: center; /* Centraliza na vertical */
-    gap: 50px; /* Distância entre os elementos */
-    background-color: var(--color-blue-10); /* Cor de fundo */
-    padding: 50px 0px; /* Espaçamento interno */   
+main {
+    display: flex;
+    /* Para que o grupo fique ao lado do outro */
+    justify-content: center;
+    /* Centraliza na horizontal */
+    align-items: center;
+    /* Centraliza na vertical */
+    gap: 50px;
+    /* Distância entre os elementos */
+    background-color: var(--color-blue-10);
+    /* Cor de fundo */
+    padding: 50px 0px;
+    /* Espaçamento interno */
 }
 
-.main-content{
-    display: flex; /* Para habilitar o gap */
-    flex-direction: column; /* Deixar em coluna */
-    gap: 30px; /* Espaçamento entre os elementos */
-    width: 520px; /* Largura do elemento */    
+.main-content {
+    display: flex;
+    /* Para habilitar o gap */
+    flex-direction: column;
+    /* Deixar em coluna */
+    gap: 30px;
+    /* Espaçamento entre os elementos */
+    width: 520px;
+    /* Largura do elemento */
 }
 
-.main-content h1{
-    font-size: var(--font-size-h1); /* Tamanho da fonte */    
-    font-family: var(--font-family-primary); /* Altera a fonte */
-    font-weight: var(--font-weight-h1); /* Espessura da fonte */    
+.main-content h1 {
+    font-size: var(--font-size-h1);
+    /* Tamanho da fonte */
+    font-family: var(--font-family-primary);
+    /* Altera a fonte */
+    font-weight: var(--font-weight-h1);
+    /* Espessura da fonte */
 }
 
-.main-content h1 span{
-    color: var(--color-blue); /* Alterar a cor do texto */
+.main-content h1 span {
+    color: var(--color-blue);
+    /* Alterar a cor do texto */
 }
 
-.main-content p{
-    font-family: var(--font-family-primary); /* Altera a fonte */
-    color: var(--color-gray); /* Altera a cor do texto */    
-    line-height: 30px; /* Distância entre as linhas */
+.main-content p {
+    font-family: var(--font-family-primary);
+    /* Altera a fonte */
+    color: var(--color-gray);
+    /* Altera a cor do texto */
+    line-height: 30px;
+    /* Distância entre as linhas */
 }
 
-.container-cta{
-    display: flex;  /* Para habilitar o gap */
-    gap: 10px; /* Distância entre os elementos */
+.container-cta {
+    display: flex;
+    /* Para habilitar o gap */
+    gap: 10px;
+    /* Distância entre os elementos */
 }
 
-.btn-primary, .btn-secondary{
-    padding: 8px 55px; /* Espaçamento interno */
-    border-radius: 10px; /* Arredondamento da borda */
-    font-weight: var(--font-weight-button); /* Espessura da fonte */
-    text-decoration: none; /* Decoração do texto */
-    font-family: var(--font-family-primary); /* Família da fonte */
+.btn-primary,
+.btn-secondary {
+    padding: 8px 55px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Arredondamento da borda */
+    font-weight: var(--font-weight-button);
+    /* Espessura da fonte */
+    text-decoration: none;
+    /* Decoração do texto */
+    font-family: var(--font-family-primary);
+    /* Família da fonte */
 }
 
-.btn-primary{
-    background-color: var(--color-blue); /* Cor de fundo */
-    color: var(--color-white); /* Cor de texto */
-    transition: 0.3s; /* Tempo de transição do elemento*/
+.btn-primary {
+    background-color: var(--color-blue);
+    /* Cor de fundo */
+    color: var(--color-white);
+    /* Cor de texto */
+    transition: 0.3s;
+    /* Tempo de transição do elemento*/
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #005e89;
 }
 
-.btn-secondary{
-    background-color: var(--color-white); /* Cor de fundo */
-    color: var(--color-blue); /* Cor de texto */
-    border: 1px solid var(--color-blue); /* Borda do elemento */
+.btn-secondary {
+    background-color: var(--color-white);
+    /* Cor de fundo */
+    color: var(--color-blue);
+    /* Cor de texto */
+    border: 1px solid var(--color-blue);
+    /* Borda do elemento */
     transition: 0.3s;
 }
 
-.btn-secondary:hover{
-    background-color: #e6e6e6;    
+.btn-secondary:hover {
+    background-color: #e6e6e6;
 }
 
 /* --------------- SERVICES ---------------   */
 
-.section-services{
+.section-services {
     display: grid;
     grid-template-columns: repeat(4, max-content);
-    justify-content: center;    
+    justify-content: center;
     gap: 25px;
     padding: 30px 0;
     border-bottom: 0.7px solid var(--color-gray-3);
 }
 
-.container-item-services{
+.container-item-services {
     display: flex;
-    align-items: center;    
-    gap: 15px;    
+    align-items: center;
+    gap: 15px;
 }
 
-.container-item-services h2{
+.container-item-services h2 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-h4);
-    font-size: var(--font-size-h4);    
+    font-size: var(--font-size-h4);
 }
 
-.container-item-services p{
+.container-item-services p {
     font-family: var(--font-family-primary);
     color: var(--color-gray-2);
     font-size: var(--font-size-caption);
 }
 
+/* --------------- SERVICES DECRIPTION SERVICE ---------------   */
 
+.service-description {
+    display: flex;
+    justify-content: center;
+    width: 847px;
+    padding: 60px 20px; /* Dá um respiro para não colar nos ícones de cima */
+    /* Removido o gap e o text-align daqui! */
+}
 
+.container-txt-service {
+    display: flex;
+    padding: 0px 0px;
+    flex-direction: column;
+    /* EMPILHA os itens: h2 em cima, p embaixo */
+    align-items: center;
+    /* Centraliza os blocos horizontalmente */
+    text-align: center;
+    /* Centraliza o texto dentro dos blocos */
+    gap: 30px;
+    /* Espaço vertical entre o h2 e o p (reduzi um pouco, ajuste como preferir) */
+    max-width: 665px;
+    /* Limita a largura para o texto quebrar a linha igual na imagem */
+    margin: 0 auto;
 
+}
 
-
-
-
+.container-txt-service h2 {
+    font-family: var(--font-family-primary);
+    font-weight: 847px;
+    /* Mudei para 700 (negrito), ajuste conforme a sua fonte */
+    color: var(--color-black);
+    font-size: 32px;
+    /* Ajuste para o tamanho que você está usando no projeto */
+}
