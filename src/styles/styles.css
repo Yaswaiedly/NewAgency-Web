@@ -1,0 +1,412 @@
+@import url("./global.css");
+
+/* ================= HEADER ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.container-nav-header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigation-header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-active {
+    color: #1090CB !important;
+}
+
+.btn-header {
+    background-color: #1090CB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 80px;
+    background-color: #E8F4FA;
+}
+
+.main-content {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-content h1 {
+    font-size: 40px;
+}
+
+.main-content h1 span {
+    color: #1090CB;
+}
+
+.main-content p {
+    color: #666;
+    line-height: 28px;
+}
+
+.container-cta {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #1090CB;
+    color: white;
+}
+
+.btn-secondary {
+    border: 1px solid #1090CB;
+    color: #1090CB;
+}
+
+/* SERVICES */
+
+.section-services {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* DETAILS */
+
+.section-details {
+    padding: 80px;
+}
+
+.details-presentation {
+    text-align: center;
+}
+
+.details-presentation h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.details-presentation p {
+    color: #666;
+}
+
+/* BENEFITS */
+
+@import url("./global.css");
+
+/* ================= HEADER ================= */
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+   border-bottom: 1px solid var(--color-gray-3);
+}
+
+.container-nav-header {
+   display: flex;
+   align-items: center;
+   gap: 70px;
+}
+
+.navigation-header ul {
+   display: flex;
+   gap: 40px;
+   list-style: none;
+}
+
+.navigation-header ul li a {
+   text-decoration: none;
+   color: var(--color-black);
+   font-family: var(--font-family-primary);
+}
+
+.navigation-header ul li .menu-active {
+   color: var(--color-blue);
+}
+
+.btn-header {
+   font-family: var(--font-family-primary);
+   text-decoration: none;
+   background-color: var(--color-blue);
+   color: var(--color-white);
+   border-radius: 10px;
+   padding: 10px 20px;
+   font-weight: var(--font-weight-button);
+}
+
+/* ================= MAIN ================= */
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   background-color: var(--color-blue-10);
+   padding: 50px 30px;
+}
+
+.main-content {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   width: 520px;
+}
+
+.main-content h1 {
+   font-size: var(--font-size-h1);
+   font-family: var(--font-family-primary);
+   font-weight: var(--font-weight-h1);
+}
+
+.main-content h1 span {
+   color: var(--color-blue);
+}
+
+.main-content p {
+   font-family: var(--font-family-primary);
+   color: var(--color-gray);
+   line-height: 30px;
+}
+
+.container-cta {
+   display: flex;
+   gap: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+   padding: 10px 40px;
+   border-radius: 10px;
+   font-weight: var(--font-weight-button);
+   text-decoration: none;
+   font-family: var(--font-family-primary);
+}
+
+.btn-primary {
+   background-color: var(--color-blue);
+   color: var(--color-white);
+   transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+   background-color: #005e89;
+}
+
+.btn-secondary {
+   background-color: var(--color-white);
+   color: var(--color-blue);
+   border: 1px solid var(--color-blue);
+   transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+   background-color: #e6e6e6;
+}
+
+/* ================= SERVICES ================= */
+
+.section-services {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding: 54px 30px;
+   background-color: var(--color-white);
+   border-bottom: 1px solid var(--color-gray-3);
+}
+
+.service-item {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+/* ================= DETAILS ================= */
+
+.section-details {
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+   align-items: center;
+   padding: 80px 0;
+}
+
+.details-presentation {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   text-align: center;
+   font-family: var(--font-family-primary);
+}
+
+.details-presentation h2 {
+   font-size: var(--font-size-h2);
+   font-family: var(--font-family-primary);
+   font-weight: var(--font-weight-h2);
+}
+
+.details-presentation p {
+   font-family: var(--font-family-primary);
+   font-size: var(--font-size-body);
+   color: var(--color-gray-2);
+   width: 665px;
+   margin: 0 auto;
+}
+
+.service-description {
+   display: flex;
+   gap: 60px;
+   align-items: center;
+}
+
+.content-service {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   width: 420px;
+   font-family: var(--font-family-primary);
+}
+
+.service-details {
+   display: flex;
+   gap: 25px;
+   align-items: center;
+}
+
+.service-details div span {
+   font-size: var(--font-size-h4);
+   font-weight: var(--font-weight-h4);
+}
+
+.service-details div p {
+   font-size: var(--font-size-caption);
+   color: var(--color-gray-2);
+}
+
+.content-service h3 {
+   font-size: var(--font-size-h3);
+}
+
+.content-service h3 span {
+   color: var(--color-blue);
+}
+
+.content-service p {
+   color: var(--color-gray);
+   line-height: 27px;
+}
+
+/* ================= BENEFITS ================= */
+
+.section-benefit {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 80px 30px;
+}
+
+.card-benefit {
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+   align-items: center;
+   padding: 60px 48px;
+   border-radius: 20px;
+   background-color: var(--color-blue);
+   width: 540px;
+   text-align: center;
+   
+}
+
+.card-benefit p {
+   width: 100%;
+   color: var(--color-gray);
+   line-height: 28px;
+}
+
+.card-benefit-secondary {
+   background-color: var(--color-white);
+   border: 1px solid var(--color-blue);
+}
+
+.btn-benefit {
+   display: inline-block;
+   padding: 10px 30px;
+   border-radius: 10px;
+   background-color: var(--color-blue);
+   color: var(--color-white);
+   text-decoration: none;
+   font-family: var(--font-family-primary);
+   transition: background-color 0.3s;
+}
+
+.btn-benefit:hover {
+   background-color: var(--color-gray-3);
+}
+
+.btn-benefit-secondary {
+   display: inline-block;
+   padding: 10px 30px;
+   border-radius: 10px;
+   background-color: var(--color-white);
+   color: var(--color-blue);
+   text-decoration: none;
+   font-family: var(--font-family-primary);
+   transition: background-color 0.3s;
+}
+
+.btn-benefit-secondary:hover {
+   background-color: var(--color-gray-3);
+}
