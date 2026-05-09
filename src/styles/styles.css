@@ -444,18 +444,199 @@ main {
    margin-top: 40px;
 
    /* Espaçamento interno da section */
-   padding: 80px 0px; 
+   padding: 80px 0px;
 }
+
+/* -----------------------------------Estilização do título da seção company */
 
 .section-company h2 {
+   /* Define a fonte principal do projeto */
+   font-family: var(--font-family-primary);
 
-font-family: var(--font-family-primary);
-font-weight: var(--font-weight-h2);
-font-size: var(--font-size-h3);
+   /* Define o peso da fonte (negrito, semi-negrito etc.) */
+   font-weight: var(--font-weight-h2);
+
+   /* Define o tamanho da fonte baseado no padrão de h3 */
+   font-size: var(--font-size-h3);
 
 }
 
+/* ------------------------------------Container principal da seção company */
+
 .container-company {
+   /* Coloca os elementos lado a lado (horizontal) */
    display: flex;
+
+   /* Espaço de 80px entre os elementos dentro do container */
    gap: 80px;
+}
+
+/* ----------------------------------------------Seção de contato principal */
+
+.section-contact {
+   /* Ativa o flexbox para organizar os elementos */
+   display: flex;
+
+   /* Organiza os itens em coluna (um embaixo do outro) */
+   flex-direction: column;
+
+   /* Espaçamento entre os elementos internos */
+   gap: 80px;
+
+   /* Centraliza os itens horizontalmente */
+   align-items: center;
+
+   /* Espaçamento interno da seção */
+   padding: 140px;
+
+
+   /* Cor de fundo da seção */
+   background-color: var(--color-blue-10);
+}
+
+
+.section-contact h2 {
+   /* Tamanho da fonte do título */
+   font-size: var(--font-size-h2);
+
+   /* Espessura da fonte */
+   font-weight: var(--font-weight-h2);
+
+   /* Fonte principal do projeto */
+   font-family: var(--font-family-primary);
+
+   /* Centraliza o texto */
+   text-align: center;
+
+   /* Define uma largura fixa para controlar quebra de linha */
+   width: 478px;
+
+}
+
+/*----------------------------------------------- Formulário dentro da seção de contato */
+.section-contact form {
+   /* Coloca os elementos do form em linha */
+   display: flex;
+
+   /* Espaçamento entre os inputs e botão */
+   gap: 14px;
+}
+
+.section-contact form input {
+
+   padding: 20px 35px;
+   border-radius: 10px;
+   width: 532px;
+   font-family: var(--font-family-primary);
+   box-shadow: 0 4px 84px rgba(0, 0, 0, 0.1)
+}
+
+.section-contact form button {
+   background-color: var(--color-black);
+   padding: 20px 40px;
+   border-radius: 10px;
+   color: var(--color-white);
+   font-family: var(--font-family-primary);
+   text-transform: uppercase;
+   font-weight: var(--font-weight-button);
+
+}
+
+/*-------------FOOTER------------*/
+
+/* nao colocar ponto no footer pois é uma TAG nao um classe*/
+
+footer {
+   display: flex;
+   /* transforma o footer em um container flexível */
+   gap: 99px;
+   /* define o espaçamento entre os itens internos */
+   justify-content: center;
+   /* centraliza os itens horizontalmente */
+   padding: 60px 0;
+   /* adiciona espaçamento interno em cima e embaixo */
+}
+
+.footer-informations {
+   display: flex;
+   /* ativa flexbox */
+   flex-direction: column;
+   /* organiza os itens em coluna */
+   gap: 15px;
+   /* espaço entre os elementos internos */
+   align-items: flex-start;
+   /* alinha os itens à esquerda */
+   font-family: var(--font-family-primary);
+   /* define a fonte principal */
+}
+
+.footer-informations p {
+   font-size: var(--font-size-caption);
+   /* define tamanho do texto */
+   width: 268px;
+   /* limita a largura do parágrafo */
+   color: #515151;
+   /* define a cor do texto */
+}
+
+.footer-informations ul {
+   list-style: none;
+   /* remove os marcadores da lista */
+}
+
+.footer-informations ul li a,
+.footer-informations ul li {
+   list-style: none;
+   /* garante que não apareçam marcadores */
+   color: #515151;
+   /* define cor do texto */
+   text-decoration: none;
+   /* remove sublinhado dos links */
+   font-family: var(--font-size-caption);
+   /* ⚠️ provável erro: aqui deveria ser font-family, não font-size */
+}
+
+.footer-informations h2 {
+   font-size: var(--font-size-h4);
+   /* tamanho do título */
+   font-weight: var(--font-weight-h4);
+   /* peso da fonte */
+   color: var(--color-blue);
+   /* cor do título */
+}
+
+.footer-socials {
+   display: flex;
+   /* ativa flexbox */
+   gap: 15px;
+   /* espaço entre os ícones sociais */
+   align-items: flex-start;
+   /* alinha no topo */
+}
+
+.social-item {
+   display: flex;
+   /* centraliza o conteúdo do item */
+   justify-content: center;
+   /* centraliza horizontalmente */
+   align-items: center;
+   /* centraliza verticalmente */
+   padding: 12px;
+   /* espaço interno do ícone */
+   box-shadow: 0 4px 14px 0px rgba(0, 0, 0, 0.15);
+   /* sombra suave */
+   border-radius: 30px;
+   /* deixa o item arredondado */
+   transition: 0.3s;
+   /* define uma transição suave de 0.3 segundos para mudanças de estilo (como hover) */
+   cursor: pointer;
+   /* muda o cursor para "mãozinha", indicando que o elemento é clicável */
+
+}
+
+.social-item:hover {
+   background-color: var(--color-blue-10);
+   /* muda a cor no hover */
+   transform: translateY(-10px);
+   /* move o item levemente para cima */
 }
