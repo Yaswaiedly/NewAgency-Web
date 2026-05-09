@@ -400,13 +400,62 @@ main {
 }
 
 .btn-benefit-secondary {
+
+   /* Cor de fundo do botão */
    background-color: var(--color-white);
+
+   /* Espaçamento interno:
+      10px = cima e baixo
+      35px = esquerda e direita */
    padding: 10px 35px;
+
+   /* Arredonda os cantos do botão */
    border-radius: 10px;
+
+   /* Cor do texto */
    color: var(--color-blue);
+
+   /* Remove o sublinhado do link */
    text-decoration: none;
+
+   /* Peso/espessura da fonte */
    font-weight: var(--font-weight-button);
+
+   /* Fonte utilizada no texto */
    font-family: var(--font-family-primary);
+}
 
+/*-------------SECTION COLMPANY------------*/
+.section-company {
 
+   /* Ativa o Flexbox no container */
+   display: flex;
+
+   /* Organiza os elementos em coluna (um embaixo do outro) */
+   flex-direction: column;
+
+   /* Espaçamento entre os elementos filhos */
+   gap: 20px;
+
+   /* Alinha os itens horizontalmente no centro */
+   align-items: center;
+
+   /* Espaço externo acima da section */
+   margin-top: 40px;
+
+   /* Espaçamento interno da section */
+   padding: 80px 0px; 
+}
+
+.section-company h2 {
+
+font-family: var(--font-family-primary);
+font-weight: var(--font-weight-h2);
+font-size: var(--font-size-h3);
+
+}
+
+.container-company {
+   display: flex;
+   gap: 80px;
 }
